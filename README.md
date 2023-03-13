@@ -14,3 +14,11 @@ git push
 desta forma ficaria menos verboso, mas não sei se é mais seguro do que a maneira que geralmente uso
 
 neste link eu vejo novidades a serem aprendidas: https://www.youtube.com/watch?v=ecK3EnyGD8o
+
+5. para restaurar um commit anterior podemos fazer o seguinte: 
+```
+git logs --oneline
+git restore --source 8d55591 .
+``` 
+
+esse id utilizado no restore aparecerá no logs
